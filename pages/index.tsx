@@ -17,6 +17,10 @@ const Home: NextPage = () => {
         <Button variant="soft" size="lg">Soft</Button>
         <Button variant="outlined" size="lg">Outlined</Button>
         <Button variant="plain" size="lg">Plain</Button>
+        <Button disabled variant="solid" size="lg">Solid</Button>
+        <Button disabled variant="soft" size="lg">Soft</Button>
+        <Button disabled variant="outlined" size="lg">Outlined</Button>
+        <Button disabled variant="plain" size="lg">Plain</Button>
         <Spacer rems={1} />
         <Typography level="h3">
             Medium
